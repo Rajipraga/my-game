@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="clickSound" src="audio/click.mp3"></audio>
+    <audio id="treasureSound" src="audio/treasure.mp3"></audio>
+    <div class="container">
+        <h1>Treasure Hunt</h1>
+        <div class="game-info">
+            <p>Remaining guesses: <span id="guesses">5</span></p>
+            <p id="message"></p>
+        </div>
+        <div class="grid">
+            <div class="box" data-index="0"></div>
+            <div class="box" data-index="1"></div>
+            <div class="box" data-index="2"></div>
+            <div class="box" data-index="3"></div>
+            <div class="box" data-index="4"></div>
+            <div class="box" data-index="5"></div>
+            <div class="box" data-index="6"></div>
+            <div class="box" data-index="7"></div>
+            <div class="box" data-index="8"></div>
+            <div class="box" data-index="9"></div>
+            <div class="box" data-index="10"></div>
+            <div class="box" data-index="11"></div>
+            <div class="box" data-index="12"></div>
+            <div class="box" data-index="13"></div>
+            <div class="box" data-index="14"></div>
+            <div class="box" data-index="15"></div>
+            <div class="box" data-index="16"></div>
+            <div class="box" data-index="17"></div>
+            <div class="box" data-index="18"></div>
+            <div class="box" data-index="19"></div>
+            <div class="box" data-index="20"></div>
+            <div class="box" data-index="21"></div>
+            <div class="box" data-index="22"></div>
+            <div class="box" data-index="23"></div>
+            <div class="box" data-index="24"></div>
+        </div>
+        <button id="restart" class="restart-btn">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
